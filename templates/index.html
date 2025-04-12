@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Palm AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+  <script src="https://kit.fontawesome.com/3f263d7cad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 style="margin-bottom:2rem;">Welcome to Palm AI 🤙</h1>
+  <p style="margin-bottom:2rem;">You're very own ASL Interpreter!</p>
+  <div class="video-container">
+    <img src="{{ url_for('video') }}" width="1080" height="auto">
+  </div>
+  <div class="prediction" id="prediction">
+    <p>Instructions:</p>
+    <ul>
+        <li>Raise hand into camera</li>
+        <li>Sign a number or letter</li>
+        <li>For best results, move hand closer to camera</li>
+    </ul>
+    </p>
+  </div>
+  <a class="github-link" href="/"><i class="fa-brands fa-github"></i></a>
+</body>
+</html>

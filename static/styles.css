@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.video-container {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+.prediction {
+    width: 60%;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prediction ul {
+    list-style: decimal;
+    list-style-position: inside;
+    text-align: left;
+}
+
+ol {
+    list-style: decimal;
+    list-style-position: inside;
+    text-align: center; /* Or center, if you want */
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+}
+
+.github-link i {
+    font-size: 4rem;;
+    height: auto;
+    color:#333;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    transition: all 0.1s ease-in-out;
+}
+
+.github-link i:hover {
+    font-size: 4.4rem;
+}
+
+  
